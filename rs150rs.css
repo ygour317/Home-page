@@ -1,0 +1,220 @@
+/* *{
+    margin: 0;
+    padding: 0; 
+} */
+.container{
+    max-width: 100vw ;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+
+.first-section{
+    background-image: url("/RS-150/portpri/asset\ 9.jpeg");
+    background-color: #cccccc;
+    background-size: contain;
+    margin: auto;
+    margin-bottom: 4rem;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    text-align: end;
+    /* max-width: 100%;
+    word-wrap: break-word; */
+
+  }
+/* .first-section h2, */
+/* .first-section p{ */
+  /* max-width: 100%;
+  white-space:normal;
+}*/
+  .nav-bar{
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+  .hover-link{
+    margin: 0 4rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: large;
+    transition: 0.3s ease-out;
+  }
+  .hover-link:hover{
+    color: rgba(52, 19, 220, 0.716);
+    
+  }
+  .first-content{
+    /* padding-top: 4rem; */
+    padding-left: 40vw;
+    text-align: bottom;
+    position: relative;
+    align-items: end;
+    color: white;
+    width: 40vw;
+
+  }
+
+  .first-content>p{
+    font-size: 1.5rem;
+  }
+
+  .second-section{
+    margin-top: 1rem;
+    /* margin-left: 3rem ;
+    margin-right: 3rem ; */
+    justify-content:space-evenly;
+    gap: 1.5rem;
+  }
+
+  .first-image img{
+    width: 48vw;
+  }
+
+  .box-content{
+    max-width: 48vw;
+    padding-top: 8rem;
+    background-color: #c5c1c16d;
+    text-align: center;
+    align-items: center;
+  }
+
+  .secondary-botton{
+    border: 0.2rem solid rgba(137, 132, 141, 0.986) ;
+    font-weight: 700;
+    border-radius: 6px;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s  ease-out;
+  }
+  
+  .secondary-botton:hover {
+    background-color: rgba(218, 14, 14, 0.762);
+    border-color: rgba(79, 65, 65, 0.762);
+    color: white !important;
+  }
+  
+  .numbers{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content:center;
+    gap: 6rem;
+  }
+
+  .skill-box-content{
+    /* max-width: 48vw; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #c5c1c16d;
+    text-align: center;
+    align-items: center;
+  }
+
+  .skill-box{
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .skill-box img{
+    width: 30%;
+  }
+
+  .thanks-content{
+    padding-top: 8rem;
+    background-color: #f3f1f16d;
+    text-align:center;
+    align-items: center;
+  }
+  .font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+  }
+  .form{
+    justify-content: space-around;
+    background-color: #f3f1f16d;
+    text-align:center;
+    align-items: center;
+  }
+
+  .form-input:hover{
+    background-color: gray;
+  }
+  .form1{
+    margin: 5rem 0;
+  }
+  .form label{
+    font-weight: 900;
+
+
+  }
+  .form-input{
+    padding: 0.5rem 7rem 0.5rem 7rem;
+    margin: 1rem;
+    }
+
+  .footer{
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: rgb(33, 31, 31);
+  }
+
+  .footcol{
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+  }
+.logo img{
+    width: 20%;
+    padding-left: 2rem ;
+    align-items:flex-start;
+}
+
+
+
+@media screen and (max-width: 1195px){
+  /* .box-content{
+    max-width: 48vw;
+    padding-top: 3rem;
+    background-color: #c5c1c16d;
+    text-align: center;
+    align-items: center;
+  }
+  .skill-box{
+    margin-top: 2rem;
+    margin-left: 10vw;
+    max-width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+  .footer{
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: rgb(33, 31, 31);
+  } */
+
+}
+
+@media screen and (max-width: 1020px){
+  /* .box-content{
+    max-width: 48vw;
+    padding-top: 1rem;
+    background-color: #c5c1c16d;
+    text-align: center;
+    align-items: center;
+  } */
+
+}
